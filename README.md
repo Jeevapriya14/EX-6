@@ -61,12 +61,14 @@ while True:
 
 CLIENT OUTPUT :
 
-![EX-6 IMPLEMENTATION OF PING COMMAND(Client)](https://github.com/Jeevapriya14/EX-6/assets/121003043/2049f9e0-3e32-4392-8515-3b1de20963e6)
+![EX-6 IMPLEMENTATION OF PING COMMAND(Client)](https://github.com/Jeevapriya14/EX-6/assets/121003043/9c5b4fea-78e2-4d83-bc8b-7080399e0757)
+
 
 
 SERVER OUTPUT:
 
-![EX-6 IMPLEMENTATION OF PING COMMAND(Server)](https://github.com/Jeevapriya14/EX-6/assets/121003043/4c7a8051-1542-4bb3-bfab-1991d466f6ca)
+
+![EX-6 IMPLEMENTATION OF PING COMMAND(Server)](https://github.com/Jeevapriya14/EX-6/assets/121003043/6c0aa629-9e6e-4eb4-ba1f-22c7038bd432)
 
 
 
