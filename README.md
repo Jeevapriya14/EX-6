@@ -41,12 +41,12 @@ s.bind(('localhost'8000))
 s.listen(5)
 c,addr=s.accept()
 while True:
- hostname=c.recv(1024).decode()
- try:
- c.send(str(ping(hostname, verbose=False)).encode())
- except KeyError:
- c.send("Not Found".encode())
- ```
+  hostname=c.recv(1024).decode()
+  try:
+    c.send(str(ping(hostname, verbose=False)).encode())
+  except KeyError:
+    c.send("Not Found".encode())
+```
  
 SERVER:
 ```
@@ -54,14 +54,16 @@ import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True:
- ip=input("Enter the website you want to ping ")
- s.send(ip.encode())
- print(s.recv(1024).decode())
+  ip=input("Enter the website you want to ping ")
+  s.send(ip.encode())
+  print(s.recv(1024).decode())
 ```
 
-OUTPUT :
+CLIENT OUTPUT :
 
-![EX-6 IMPLEMENTATION OF PING COMMAND(Client)](https://github.com/kannan0071/EX-6/assets/119641638/4e355729-d405-4186-b8ee-3e4df4726b1a)
+![EX-6 IMPLEMENTATION OF PING COMMAND(Client)](https://github.com/Jeevapriya14/EX-6/assets/121003043/7950a303-8a45-437d-80ac-0cbbaa8df097)
+
+SERVER OUTPUT:
 
 ![EX-6 IMPLEMENTATION OF PING COMMAND(Server)](https://github.com/kannan0071/EX-6/assets/119641638/b9679264-b02f-41c4-a43a-f3ead62de861)
 
